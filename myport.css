@@ -1,0 +1,96 @@
+body{ 
+    margin: 0;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.25);
+    overflow:hidden;
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+.img img{
+    width:300px;
+    height:168px;
+    margin:10px;
+}
+.navbar a{
+    float: left;
+    display: block;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 12px;     
+}
+.navbar a:hover{
+    background-color: white;
+    border-radius: 10px;
+    color: red;
+    font-style: italic;
+    padding: 10px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*.main {
+    padding-top: 30px;
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}*/
+.h1{
+    text-align: center;
+    padding: 40px 50px;
+}
+#contact{
+    padding: 40px 50px;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 20px;
+}
+#about{
+    background-color: coral;
+    text-align: justify;
+    padding: 40px 50px;
+    text-align: center;
+    font-size: 20px;
+    color: crimson;
+}
+.photoround{
+    border-radius: 9999px;
+}
+#portfolio{
+    background-color: palevioletred;
+    padding: 40px 50px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 50px;    
+}
+.input{
+    text-align: center;
+    border-color: brown;
+}
+#home{
+    padding: 16px;
+    background-image:url('backcover.jpg');
+    background-color: goldenrod;
+    padding: 80px 80px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    color: white;
+    padding: 20px 50px;
+}
+/*
+padding: 10px;
+padding: 40px 50px;
+    background-color: orangered;
+    position:fixed;
+    display: flex;
+    top: 0;*/
+    /*.navbar a.active{
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 10px;
+}*/
